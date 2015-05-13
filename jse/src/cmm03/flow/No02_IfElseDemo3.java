@@ -2,7 +2,7 @@ package cmm03.flow;
 
 import java.util.Scanner;
 
-public class No02_z {
+public class No02_IfElseDemo3 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("국어 점수를 입력하세요");
@@ -20,8 +20,11 @@ public class No02_z {
 		m = scanner.nextInt();
 		
 		int sum = k + e + m;
-		int avg = sum/3;
+		double avg = 0.0;
 		String msg = "massage";
+		avg = sum/3;
+		//avg =Math.floor(sum/3);  -> 소수점 없에는 방법?
+		
 		
 		if(avg==100){
 			msg = "보너스지급";
@@ -35,7 +38,7 @@ public class No02_z {
 		System.out.println("영어점수 "+e);
 		System.out.println("수학점수 "+m);
 		System.out.println("총점 "+sum);
-		System.out.println("평균 "+avg);
+		System.out.println("평균 "+(int)avg);
 		System.out.println("귀하의 시험결과 "+msg+"입니다.");
 		
 	}
