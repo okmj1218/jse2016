@@ -20,7 +20,7 @@ public class No02_z {
 		m = scanner.nextInt();
 		
 		int sum = k + e + m;
-		double avg = sum/3;
+		int avg = sum/3;
 		String msg = "massage";
 		
 		if(avg==100){
@@ -35,7 +35,7 @@ public class No02_z {
 		System.out.println("영어점수 "+e);
 		System.out.println("수학점수 "+m);
 		System.out.println("총점 "+sum);
-		System.out.println("평균 "+m);
+		System.out.println("평균 "+avg);
 		System.out.println("귀하의 시험결과 "+msg+"입니다.");
 		
 	}
