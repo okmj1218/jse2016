@@ -1,17 +1,12 @@
 package oop01_syntax;
 
-public class AverageA {
-	String name;
-	int kor;
-	int eng;
-	int tot;
-	double avg;
-	
+public class No04_pAverageD {
 	public static void main(String[] args) {
 		/*학생 객체 생성 및 메모리 할당*/
-		AverageA hulk = new AverageA();
-		AverageA iron = new AverageA();
-		AverageA hawk = new AverageA();
+		No04_pAverageC hulk = new No04_pAverageC();
+		No04_pAverageC iron = new No04_pAverageC();
+		No04_pAverageC hawk = new No04_pAverageC();
+		
 		/*이름 저장*/
 		hulk.name = "헐크";
 		iron.name = "아이언";
@@ -54,5 +49,6 @@ public class AverageA {
 		System.out.println("합계: " + hawk.tot);
 		System.out.println("평균: " + hawk.avg);
 		System.out.println();
+
 	}
 }

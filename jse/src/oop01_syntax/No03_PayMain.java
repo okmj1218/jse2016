@@ -11,7 +11,7 @@ class Pay{
 	int income;   //실제 수입력
 }
 
-public class PayMain {
+public class No03_PayMain {
 	public static void main(String[] args) {
 		Pay p1 = new Pay();
 		Pay p2 = new Pay();

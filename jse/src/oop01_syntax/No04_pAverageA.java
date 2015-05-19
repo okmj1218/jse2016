@@ -1,24 +1,17 @@
 package oop01_syntax;
 
-public class AverageB {
-	/*필드 선언*/
+public class No04_pAverageA {
 	String name;
 	int kor;
 	int eng;
 	int tot;
 	double avg;
 	
-	/*이름 저장하는 기능*/
-	public void setName(String name){
-		this.name = name;             //instance 변수 = parameter
-	}
-	
 	public static void main(String[] args) {
 		/*학생 객체 생성 및 메모리 할당*/
-		AverageA hulk = new AverageA();
-		AverageA iron = new AverageA();
-		AverageA hawk = new AverageA();
-		
+		No04_pAverageA hulk = new No04_pAverageA();
+		No04_pAverageA iron = new No04_pAverageA();
+		No04_pAverageA hawk = new No04_pAverageA();
 		/*이름 저장*/
 		hulk.name = "헐크";
 		iron.name = "아이언";
