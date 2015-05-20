@@ -12,7 +12,7 @@ class CoffeeA{
 	}
 }
 
-public class No05_zCoffeeAmain {
+public class CoffeeAmain {
 	public static void main(String[] args) {
 		CoffeeA coffeeA = new CoffeeA();
 		CoffeeA coffeeAA = new CoffeeA(500);
