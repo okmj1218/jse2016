@@ -35,8 +35,9 @@ public class KaupVO {
 		return idx;
 	}
 
-	public void setIdx(int idx) {
+	public void setIdx(double height,double weight) {
 		this.idx = (int)((weight/(height*height))*10000);
+		System.out.println("인덱스 값 : " + idx);
 	}
 
 	public String getMsg() {
@@ -66,6 +67,7 @@ public class KaupVO {
 
 	@Override
 	public String toString() {
+		
 		return "카우프지수 [height=" + height + ", weight=" + weight + ", idx="
 				+ idx + ", msg=" + this.getMsg() + "]";
 	}

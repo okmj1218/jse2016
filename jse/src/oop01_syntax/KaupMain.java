@@ -10,9 +10,9 @@ public class KaupMain {
 		System.out.println("몸무게를 입력해 주세요.");
 		double weight = scanner.nextDouble();
 		KaupVO vo = new KaupVO(height, weight);
-		vo.setHeight(height);
-		vo.setWeight(weight);
-		//vo.setIdx(height,weight);
+		/*vo.setHeight(height);
+		vo.setWeight(weight);*/
+		vo.setIdx(height,weight);
 		
 		
 		/*int idx=0;
