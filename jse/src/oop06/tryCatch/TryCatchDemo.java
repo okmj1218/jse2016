@@ -7,5 +7,17 @@ package oop06.tryCatch;
  발생하지 않음.
  */
 public class TryCatchDemo {
+	public static void main(String[] args) {
+		int a=5, b=0;
+		int mok=0, nmg=0;
 
+		try{
+			mok = a / b;
+			nmg = a % b;
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		System.out.println(a + "/" + b + "=" + mok);
+		System.out.println(a + "%" + b + "=" + nmg);
+	}
 }
